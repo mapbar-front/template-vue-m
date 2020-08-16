@@ -15,7 +15,7 @@
     "*.{js,jsx,vue}": [
       "eslint --fix",
       "stylelint --fix",
-      "git add ."
+      "git add"
     ],
     "*.{css,less,scss}":[
       "stylelint --fix",

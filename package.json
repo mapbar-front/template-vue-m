@@ -11,12 +11,6 @@
     "test:e2e": "vue-cli-service test:e2e",
     "test:unit": "vue-cli-service test:unit"
   },
-  "config": {
-    "husky": {
-      "pre-commit": "lint-staged",
-      "commit-msg": "commitlint -e $GIT_PARAMS"
-    }
-  },
   "lint-staged": {
     "*.{js,jsx,vue}": [
       "eslint --fix",

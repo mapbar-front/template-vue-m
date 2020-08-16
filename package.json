@@ -14,12 +14,10 @@
   "lint-staged": {
     "*.{js,jsx,vue}": [
       "eslint --fix",
-      "stylelint --fix",
-      "git add"
+      "stylelint --fix"
     ],
     "*.{css,less,scss}":[
-      "stylelint --fix",
-      "git add"
+      "stylelint --fix"
     ]
   },
   "dependencies": {

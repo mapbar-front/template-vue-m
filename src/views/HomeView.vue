@@ -1,8 +1,8 @@
 <script setup lang="ts">
-import TheWelcome from "../components/TheWelcome.vue";
+import BaseDemo from "../components/base-demo.vue";
 </script>
 <template>
   <main>
-    <TheWelcome />
+    <base-demo msg="我是中国人" />
   </main>
 </template>
